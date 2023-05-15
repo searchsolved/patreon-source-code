@@ -10,6 +10,7 @@ This Python code implements a web scraping tool to retrieve related search keywo
 
 2. **Run the Python script** using the following command:
 
+```streamlit run ebay-related-searches.py```
 
 3. The Streamlit app will launch in your default web browser.
 
