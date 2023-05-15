@@ -1,45 +1,27 @@
-eBay Related Search Scraper
+# eBay Related Search Scraper
+
 This Python code implements a web scraping tool to retrieve related search keywords from eBay. It provides a user-friendly web interface using the Streamlit library. The scraper allows you to search for related keywords on eBay and visualize the results in an interactive tree format.
 
-Usage
-Install the required dependencies listed in the requirements.txt file by running the following command:
+## Usage
 
-Copy code
-pip install -r requirements.txt
-Run the Python script using the following command:
+1. **Install the required dependencies** listed in the `requirements.txt` file by running the following command:
 
-arduino
-Copy code
-streamlit run scraper.py
-The Streamlit app will launch in your default web browser.
+```pip install -r requirements.txt```
 
-Enter the keyword you want to search for on eBay in the text input field.
+2. **Run the Python script** using the following command:
 
-Select the country code top-level domain (ccTLD) from the dropdown menu to specify the country.
 
-Click the "Submit" button to start the scraping process.
+3. The Streamlit app will launch in your default web browser.
 
-Wait for the scraper to retrieve the related search keywords from eBay. The progress will be displayed.
+4. **Enter the keyword** you want to search for on eBay in the text input field.
 
-Once the scraping is complete, an interactive tree visualization of the related search keywords will be displayed.
+5. **Select the country code top-level domain (ccTLD)** from the dropdown menu to specify the country.
 
-To download the scraped data as a CSV file, click the "Download your report!" button.
+6. **Click the "Submit" button** to start the scraping process.
 
-requirements.txt:
+7. **Wait for the scraper** to retrieve the related search keywords from eBay. The progress will be displayed.
 
-makefile
-Copy code
-streamlit==0.84.1
-streamlit_echarts==0.1.1
-stqdm==0.2.2
-pandas==1.3.0
-beautifulsoup4==4.9.3
-requests==2.26.0
-user_agent2==2.3.0
-To install the dependencies, run the following command:
+8. Once the scraping is complete, an **interactive tree visualization** of the related search keywords will be displayed.
 
-Copy code
-pip install -r requirements.txt
-Make sure to have the correct Python environment activated before installing the dependencies.
+9. To **download the scraped data** as a CSV file, click the "Download your report!" button.
 
-Note: It's recommended to use a virtual environment to keep the project dependencies isolated.
