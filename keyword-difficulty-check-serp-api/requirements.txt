@@ -1,0 +1,7 @@
+numpy==1.22.4
+pandas==1.4.2
+requests==2.27.1
+chardet==4.0.0
+xlsxwriter==3.0.3
+pyxlsb==1.0.9
+stqdm

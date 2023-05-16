@@ -1,0 +1,5 @@
+pandas
+stqdm
+polyfuzz[fast]
+nltk
+chardet
