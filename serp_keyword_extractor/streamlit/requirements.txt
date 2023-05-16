@@ -1,0 +1,6 @@
+rakun2==0.24
+pandas==1.5.1
+stqdm==0.0.4
+trafilatura==1.4.0
+altair==4.2.0
+xlsxwriter==3.0.3

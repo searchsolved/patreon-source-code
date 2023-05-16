@@ -1,0 +1,4 @@
+pandas==1.5.1
+chardet==5.0.0
+xlsxwriter==3.0.3
+rakun2==0.24
